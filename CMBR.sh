@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cd bin
+cd bin/linux-build-debug
 
-cmake ../src
+cmake ../../src/linux -DARGV=$1 
 
 make
 
